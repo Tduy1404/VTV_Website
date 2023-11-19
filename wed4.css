@@ -1,0 +1,257 @@
+.header{
+    height: 46px;
+    width: 100%;
+    background-color: #d60a0b;
+    min-width: 490px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial;
+    font-size: 6px;
+    color: #333;
+    font-weight: normal;
+}
+.png{
+    display: flex;
+    top: 0;
+    background: url(https://vtv1.mediacdn.vn/web_images/logo_2020_2.png) 0 0 no-repeat;
+    background-size: auto 85px;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 190px;
+    height: 85px;
+    float: left;
+    position: absolute;
+    left: -5px;
+    z-index: 100;
+}
+.grip{
+    width:  1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header__navbar-list1{
+    list-style: none;
+    padding-left: 0;
+    font-size:15px;
+}
+.header__navbar-item1{
+    margin: 0 10px;
+    display:  inline-block;
+    margin: 7px 10px 0px 0px;
+    padding: 3px 3px 3px 2px;
+    font: 12px arial;}
+
+.header__navbar{
+    display: flex;
+    justify-content:space-between ;
+}
+.header__navbar-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial;
+    font-size: 6px;
+    color: #333;
+    font-weight: normal;
+    float: right;
+    height: 22px;
+}
+    
+
+.header__navbar-item{
+    margin: 0 10px;
+}
+.header__navbar-item, .header__navbar-color{
+background-color: #d60a0b;
+}
+.header__navbar-item,.header__navbar-bot1{
+    display:  inline-block;
+    margin: 7px 10px 0px 0px;
+    padding: 3px 3px 3px 2px;
+    font: 12px arial;
+    color:#fffff0;
+
+}
+.header__navbar-item,.header__navbar-bot2{
+    display:  inline-block;
+    margin: 7px 10px 0px 0px;
+    padding: 3px 3px 3px 2px;
+    font: 12px arial;
+    color:#fffff0;
+}
+.header__navbar-item,.header__navbar-bot3{
+    display:  inline-block;
+    margin: 0px 10px 0px 0px;
+    font: 12px arial;
+    padding: 10px 3px 3px 2px;
+    color: #fffff0;
+}
+.header__navbar-item,.header__navbar-bot4{
+    font-size: 20px;
+    color: #ffb6b6;
+    margin: 0px 10px 0px 0px;
+}
+.header__navbar-item,.header__navbar-bot5{
+   
+    float: left;
+    font-size: 20px;
+}
+
+
+/* ---header-bottom--- */
+.header1{
+    height:46px;
+    width: 100%;
+    background-color: #b70002;
+    min-width: 490px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial;
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+    white-space: nowrap;
+}
+.grip1{
+    width:  1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header1__navbar{
+    display: flex;
+    justify-content:space-between ;
+}
+    .header1__navbar-list1{
+        float: left;
+        width: 100%;
+    }
+    .header1__navbar-home{
+        margin: 0 8px;
+    }
+    .header1__navbar-home,.header1__navbar-top{
+        display:  inline-block;
+        font-size: 1.5rem;
+        color: var(--while-color);
+        text-decoration: none;
+        font-weight: 150px;
+    }
+    .header1__navbar-top{
+        margin: 7px 10px 0px 0px;
+        padding: 3px 3px 3px 2px;
+        font: 12px arial;
+    }
+    .header1__navbar-home,.header1__navbar-top1{
+        display:  inline-block;
+        
+        font-size: 15px;
+    }
+    .header1__navbar-home,.header1__navbar-top2{
+        display:  inline-block;
+    
+        font-size: 15px;
+        
+    }
+    .cool{
+        margin-top: -15px;
+        width:1903px ;
+        height: 144px;
+        background-color: #333;
+    }
+    #cool1{
+        display: inline-block;
+        padding-right: 500px;
+        padding-top: 50px;
+        font-weight:bold;
+        font-size: 25px;
+        color: #fffff0;
+    }
+    .ill1{
+margin-left: 330px;
+
+    }
+.case{
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.case1{
+    display: grid;
+    grid-template-rows: 3fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.bam1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top:20px;
+}
+.ill2{
+   margin-left: 20px;
+
+   word-wrap: break-word;
+}
+.bam2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 330px;
+}
+.k2{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+}
+.bam4{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 330px;
+  
+}
+.bam5{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 330px;
+}
+.bam6{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 330px;
+}
+.bam7{
+    display: inline-block;
+   margin-left: 870px;
+
+}
+.bam8{
+    margin-left: 330px;
+}
+.bam3{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 330px;
+}
+.horizontal-hr {
+    width: 1080px;
+    height: 1px; /* Đặt chiều cao của đường kẻ ngang */
+    margin: 10px 0; /* Điều chỉnh margin để cách lề trên và dưới của đường kẻ ngang */
+    border: none; /* Loại bỏ viền của đường kẻ */
+    background-color: black; /* Màu sắc của đường kẻ */
+    margin-left: 330px;
+
+}
+.h2{
+    margin-left: -70px;
+}
+.k2{
+    margin-left: -70px;
+}
+.m2{
+    margin-left: -70px;
+}
+.n2{
+    margin-left: -70px;
+}

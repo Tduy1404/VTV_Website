@@ -1,0 +1,314 @@
+.header{
+    height: 46px;
+    width: 100%;
+    background-color: #063464;
+    min-width: 490px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial;
+    font-size: 6px;
+    color:#fffff0;
+    font-weight: normal;
+}
+.png{
+    display: flex;
+    top: 0;
+    background: url(https://vtv1.mediacdn.vn/web_images/logo_2020_2.png) 0 0 no-repeat;
+    background-size: auto 85px;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 190px;
+    height: 85px;
+    float: left;
+    position: absolute;
+    left: -5px;
+    z-index: 100;
+}
+.grip{
+    width:  1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header__navbar-list1{
+    list-style: none;
+    padding-left: 0;
+    font-size:15px;
+}
+.header__navbar-item1{
+    margin: 0 10px;
+    display:  inline-block;
+    margin: 7px 10px 0px 0px;
+    padding: 3px 3px 3px 2px;
+    font: 12px arial;}
+
+.header__navbar{
+    display: flex;
+    justify-content:space-between ;
+}
+.header__navbar-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial;
+    font-size: 6px;
+    color:#fffff0;
+    font-weight: normal;
+    float: right;
+    height: 22px;
+}
+    
+
+.header__navbar-item{
+    margin: 0 10px;
+}
+.header__navbar-item, .header__navbar-color{
+background-color: #063464;
+}
+.header__navbar-item,.header__navbar-bot1{
+    display:  inline-block;
+    margin: 7px 10px 0px 0px;
+    padding: 3px 3px 3px 2px;
+    font: 12px arial;
+    color:#fffff0;
+
+}
+.header__navbar-item,.header__navbar-bot2{
+    display:  inline-block;
+    margin: 7px 10px 0px 0px;
+    padding: 3px 3px 3px 2px;
+    font: 12px arial;
+    color:#fffff0;
+}
+.header__navbar-item,.header__navbar-bot3{
+    display:  inline-block;
+    margin: 0px 10px 0px 0px;
+    font: 12px arial;
+    padding: 10px 3px 3px 2px;
+    color: #fffff0;
+}
+.header__navbar-item,.header__navbar-bot4{
+    font-size: 20px;
+    color: #ffb6b6;
+    margin: 0px 10px 0px 0px;
+}
+.header__navbar-item,.header__navbar-bot5{
+   
+    float: left;
+    font-size: 20px;
+}
+
+
+/* ---header-bottom--- */
+.header1{
+    height:46px;
+    width: 100%;
+    background-color: #092d54;
+    min-width: 490px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial;
+    font-size: 12px;
+    color:#fffff0;
+    font-weight: normal;
+    white-space: nowrap;
+}
+.grip1{
+    width:  1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header1__navbar{
+    display: flex;
+    justify-content:space-between ;
+}
+    .header1__navbar-list1{
+        float: left;
+        width: 100%;
+    }
+    .header1__navbar-home{
+        margin: 0 8px;
+    }
+    .header1__navbar-home,.header1__navbar-top{
+        display:  inline-block;
+        font-size: 1.5rem;
+        color: var(--while-color);
+        text-decoration: none;
+        font-weight: 150px;
+    }
+    .header1__navbar-top{
+        margin: 7px 10px 0px 0px;
+        padding: 3px 3px 3px 2px;
+        font: 12px arial;
+    }
+    .header1__navbar-home,.header1__navbar-top1{
+        display:  inline-block;
+        
+        font-size: 15px;
+    }
+    .header1__navbar-home,.header1__navbar-top2{
+        display:  inline-block;
+    
+        font-size: 15px;
+        
+    }
+
+    .footer{
+        display: grid;
+        grid-template-rows: 2fr 1fr 3fr 1fr 3fr 1fr 3fr 1fr 3fr;
+        width: 1210px;
+       margin-left: 330px;
+       
+     
+    }
+    .footer1{
+        width: 1166px;
+        height: 246px;
+        margin-top: 20px;
+    }
+.footer2{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: black;
+}
+.video2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+.dio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.dio1{
+    margin-left: -120px;
+    color: #fffff0;
+}
+
+.footer3{
+    height: 80px;
+   
+}
+    img {
+        display: flex;
+        height: 80px;
+    }
+.footer4{
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+}
+.item1{
+    display: grid;
+    grid-template-rows: 3fr 2fr 1fr 1fr 1fr ;
+    margin-top: -300px;
+}
+.item2{
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+   margin-left: -150px;
+}
+.anh1{
+    
+        width: 700px;
+        height: 318px;
+        overflow: hidden;
+}
+.e1{
+   width: 700px;
+    margin-top: -250px;
+    overflow: hidden;
+    font-size: 14px;
+}
+.item2{
+   border: none;
+   
+}
+.footer5{
+    margin-top: -750px;
+}
+.footer6{
+    margin-top: -700px;
+}
+.footer6{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.dream2{
+    margin-top: -1550px;
+    margin-left: -60px;
+}
+ 
+   .a1{
+    border-bottom: 2px solid #333;
+    font-size: 14x;
+    background-color:  rgb(146, 165, 41);
+   
+   }
+   .point{overflow: scroll;
+    list-style-type: none;
+   margin-top: -1550px;
+   margin-left: 30px;
+   border-left: 1px solid #333;
+   width: 350px;
+   }
+li{
+    list-style-type: none;
+}
+   .point::-webkit-scrollbar {
+    width: 4px;
+    height: 0px;
+} 
+.point::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+    background-color: #716666;
+}
+.point::-webkit-scrollbar-thumb {
+    background-color: rgb(224, 24, 24);
+}
+/*  */
+.pepsi{
+    width: 1340px;
+    height: 274px;
+    display: grid;
+    grid-template-rows: 2fr 2fr 7fr;
+    margin-top: 50px;
+    margin-left: 330px;
+   }
+   .coca{
+    display: grid;
+    grid-template-columns: 1fr 3fr 4fr 4fr 3fr;
+ 
+   }
+   .vita{
+    display: grid;
+    grid-template-columns: 6fr 4fr 2fr 2fr;
+    background-color: #f9f9f9;
+   }
+   .vita1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+   }
+   .vita2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+   }
+   .vita3{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+   }
+   .vita4{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+   }

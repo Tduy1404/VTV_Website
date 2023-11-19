@@ -1,0 +1,842 @@
+.header{
+    height: 46px;
+    width: 100%;
+    background-color: #063464;
+    min-width: 490px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial;
+    font-size: 6px;
+    color:#fffff0;
+    font-weight: normal;
+}
+.png{
+    display: flex;
+    top: 0;
+    background: url(https://vtv1.mediacdn.vn/web_images/logo_2020_2.png) 0 0 no-repeat;
+    background-size: auto 85px;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 190px;
+    height: 85px;
+    float: left;
+    position: absolute;
+    left: -5px;
+    z-index: 100;
+}
+.grip{
+    width:  1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header__navbar-list1{
+    list-style: none;
+    padding-left: 0;
+    font-size:15px;
+}
+.header__navbar-item1{
+    margin: 0 10px;
+    display:  inline-block;
+    margin: 7px 10px 0px 0px;
+    padding: 3px 3px 3px 2px;
+    font: 12px arial;}
+
+.header__navbar{
+    display: flex;
+    justify-content:space-between ;
+}
+.header__navbar-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial;
+    font-size: 6px;
+    color:#fffff0;
+    font-weight: normal;
+    float: right;
+    height: 22px;
+}
+    
+
+.header__navbar-item{
+    margin: 0 10px;
+}
+.header__navbar-item, .header__navbar-color{
+background-color: #063464;
+}
+.header__navbar-item,.header__navbar-bot1{
+    display:  inline-block;
+    margin: 7px 10px 0px 0px;
+    padding: 3px 3px 3px 2px;
+    font: 12px arial;
+    color:#fffff0;
+
+}
+.header__navbar-item,.header__navbar-bot2{
+    display:  inline-block;
+    margin: 7px 10px 0px 0px;
+    padding: 3px 3px 3px 2px;
+    font: 12px arial;
+    color:#fffff0;
+}
+.header__navbar-item,.header__navbar-bot3{
+    display:  inline-block;
+    margin: 0px 10px 0px 0px;
+    font: 12px arial;
+    padding: 10px 3px 3px 2px;
+    color: #fffff0;
+}
+.header__navbar-item,.header__navbar-bot4{
+    font-size: 20px;
+    color: #ffb6b6;
+    margin: 0px 10px 0px 0px;
+}
+.header__navbar-item,.header__navbar-bot5{
+   
+    float: left;
+    font-size: 20px;
+}
+
+
+/* ---header-bottom--- */
+.header1{
+    height:46px;
+    width: 100%;
+    background-color: #092d54;
+    min-width: 490px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial;
+    font-size: 12px;
+    color:#fffff0;
+    font-weight: normal;
+    white-space: nowrap;
+}
+.grip1{
+    width:  1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header1__navbar{
+    display: flex;
+    justify-content:space-between ;
+}
+    .header1__navbar-list1{
+        float: left;
+        width: 100%;
+    }
+    .header1__navbar-home{
+        margin: 0 8px;
+    }
+    .header1__navbar-home,.header1__navbar-top{
+        display:  inline-block;
+        font-size: 1.5rem;
+        color: var(--while-color);
+        text-decoration: none;
+        font-weight: 150px;
+    }
+    .header1__navbar-top{
+        margin: 7px 10px 0px 0px;
+        padding: 3px 3px 3px 2px;
+        font: 12px arial;
+    }
+    .header1__navbar-home,.header1__navbar-top1{
+        display:  inline-block;
+        
+        font-size: 15px;
+    }
+    .header1__navbar-home,.header1__navbar-top2{
+        display:  inline-block;
+    
+        font-size: 15px;
+        
+    }
+
+
+/* #container {
+    height: 100px;
+} */
+
+.info {
+    flex: 1;
+    padding-top: 35px;
+    color: #FFF;
+    line-height: 28px;
+    margin: 0px 15px;
+    /* position: relative;
+    Để thiết lập viền */
+}
+
+.info ul {
+    border-right: 1px solid #b9b7b7;
+}
+
+.info span {
+    padding-bottom: 10px;
+    display: block;
+}
+
+.info a {
+    color: #282828;
+    display: block;
+    line-height: 28px;
+}
+
+.info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    background: #504e4e;
+    /* Màu viền đen */
+}
+
+#tren {
+    width: 100%;
+    height: 340px;
+    background-color: #fff;
+    margin: 0px auto;
+    /*display: flex;	*/
+    border-top: 1px solid #EC1C24;
+}
+
+#duoi {
+    width: 100%;
+    height: 60px;
+    background-color: #5b5656;
+    /*margin: 0px auto;*/
+    /*position: absolute;*/
+}
+
+#copyright {
+    width: 1140px;
+    height: 60px;
+    margin: 0px auto;
+    color: #fffdfd;
+}
+
+#copyright span {
+    display: block;
+    padding-top: 20px;
+}
+
+
+/* main */
+
+#video {
+    width: 1330px;
+    height: 350px;
+    background-color: #FFF;
+    padding-top: 20px;
+    margin: 0px auto;
+    padding-left: 90px;
+}
+
+.vd-title {
+    width: 1140px;
+    height: 44px;
+    background-color: #FFF;
+    border-bottom: 1px solid #EC1C24;
+    margin-bottom: 20px;
+}
+
+.vd-title a {
+    font-size: 24px;
+    color: #414141;
+}
+
+.vd-item {
+    width: 216px;
+    height: 220px;
+    margin: 6px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    float: left;
+    padding-top: 20px;
+    padding-left: 28px;
+    position: relative;
+}
+
+.vd-button {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#anh-vd {
+    width: 160px;
+    /* height: 165px; */
+}
+
+#vd-info {
+    width: 160px;
+    background-color: #FFF;
+    margin-top: 20px;
+    border-top: 1px solid #CCC;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#vd-name {
+    color: #414141;
+    font-size: 18px;
+}
+
+.vd-item:hover {
+    border: 1px solid orange;
+}
+
+
+/* Thiết lập CSS cho mỗi phần tử */
+
+.tlitem {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 1140px;
+    height: 150px;
+    gap: 10px;
+}
+
+.tlitem a {
+    text-decoration: none;
+    color: #333;
+}
+
+.tlitem img {
+    max-width: 200px;
+    margin-right: 10px;
+}
+
+.time {
+    font-size: 14px;
+    color: #999;
+}
+
+.sapo {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+li.tlitem {
+    margin-bottom: 10px;
+    /* Thêm khoảng cách 10px dưới mỗi mục */
+}
+
+
+/* click */
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: #d82323;
+    /* Màu nền */
+    color: #fff;
+    /* Màu chữ */
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    /* Bo góc */
+    margin-right: 10px;
+    cursor: pointer;
+   
+    border: 1px solid rgb(209, 202, 192);
+    font-size: 10px;
+}
+
+.right {
+    text-align: center;
+    /* Canh giữa theo chiều ngang */
+}
+
+.right a {
+    display: block;
+    /* Để mỗi liên kết trên một dòng riêng biệt */
+    margin: 5px;
+    /* Tạo khoảng cách giữa các liên kết */
+}
+
+.right-container {
+    display: flex;
+    /* Hiển thị các phần tử trong cùng một hàng */
+    justify-content: space-between;
+    /* Canh giữa theo chiều ngang và để chúng cách xa nhau */
+}
+
+
+/* CSS cho nút khi di chuột qua */
+
+.button:hover {
+    background-color: #d82323;
+    /* Màu nền khi di chuột qua */
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Đảm bảo ảnh chiếm cả chiều cao của màn hình */
+    margin: 10px;
+    gap: 10px;
+    /* Khoảng cách giữa 2 ảnh là 10px */
+}
+
+
+/* Định dạng chữ màu và cỡ chữ cho các mục trong menu */
+
+
+/* Trang trí phần tử "stickymenuleft" */
+
+.stickymenuleft {
+    top: 110px;
+    /* Vị trí bắt đầu từ trên cùng của trang */
+    position: fixed;
+    background-color: #fff;
+    /* Màu nền của phần tử */
+    padding: 10px;
+    /* Khoảng cách giữa nội dung và biên của phần tử */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Đổ bóng */
+}
+
+
+/* Trang trí các thẻ a bên trong "stickymenuleft" */
+
+.stickymenuleft a {
+    text-decoration: none;
+    /* Loại bỏ gạch chân mặc định cho liên kết */
+    color: #333;
+    /* Màu chữ cho liên kết */
+}
+
+.stickymenuleft a:hover {
+    color: #0077FF;
+    /* Màu chữ khi di chuột qua liên kết */
+}
+
+
+/* trung */
+
+
+/* Áp dụng kiểu cho video có id "video-player" */
+
+#video-player {
+    width: 100%;
+    /* Đặt chiều rộng của video là 100% chiều rộng của phần tử chứa nó */
+    max-width: 800px;
+    /* Đặt chiều rộng tối đa của video */
+    height: auto;
+    /* Cho phép video tự điều chỉnh chiều cao để giữ tỷ lệ khung hình */
+    border: 2px solid #333;
+    /* Đặt viền cho video */
+    background-color: #f0f0f0;
+    /* Đặt màu nền cho video */
+    margin: 0 auto;
+    /* Căn giữa video trong phần tử chứa nó */
+    display: block;
+    /* Đảm bảo rằng video hiển thị dưới dạng khối */
+}
+
+
+/* Điều chỉnh kiểu của nút điều khiển video */
+
+#video-player::-webkit-media-controls-play-button,
+#video-player::-webkit-media-controls-pause-button,
+#video-player::-webkit-media-controls-mute-button {
+    background-color: #333;
+    /* Đặt màu nền cho nút phát, tạm dừng, và tắt tiếng */
+    color: white;
+    /* Đặt màu chữ cho nút phát, tạm dừng, và tắt tiếng */
+    border: none;
+    /* Xóa viền của các nút */
+    border-radius: 50%;
+    /* Làm cho các nút tròn */
+}
+
+
+/* Tùy chỉnh kiểu của thanh tua video */
+
+#video-player::-webkit-media-controls-timeline {
+    background-color: #ccc;
+    /* Đặt màu nền cho thanh tua */
+    height: 6px;
+    /* Đặt chiều cao của thanh tua */
+    border-radius: 3px;
+    /* Làm cho thanh tua có góc bo tròn */
+}
+
+.h-title {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.h-title a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* .h-title a:hover {
+    text-decoration: underline;
+    color: #FF0000;
+} */
+
+.th-title {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.th-title li {
+    margin: 0 10px;
+}
+
+.th-title li a {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #b2b5b8;
+    color: #0c0a0a;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.square-container {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #b2b5b8;
+    color: #0f0d0d;
+    text-decoration: none;
+}
+
+
+/* Định dạng biểu tượng */
+
+nav i {
+    font-size: 24px;
+    /* Kích thước biểu tượng */
+}
+
+
+/* Định dạng đường ngăn cách giữa các mục menu */
+
+nav hr {
+    border: none;
+    border-top: 1px solid #555;
+    /* Màu đường ngăn cách */
+}
+
+.nav_right a {
+    color: #5f5b5b;
+    font-size: 10px;
+}
+
+/* .nav_right a:hover {
+    color: #a30606;
+} */
+
+
+/* Trang trí phần tử mẹ, ở đây là .container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    /* Chiều cao của cửa sổ trình duyệt */
+}
+
+
+/* Trang trí phần tử "some" */
+
+.some {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    width: 76%;
+    /* Điều chỉnh chiều rộng theo nhu cầu */
+}
+
+
+/* Trang trí phần bên trái (chiếm 3/7 chiều rộng) */
+
+.left-section {
+    flex: 1;
+    /* 1 phần trên tổng cộng 9 */
+    padding: 20px;
+    /* Điều chỉnh theo nhu cầu */
+}
+
+
+/* Trang trí phần bên phải (chiếm 4/9 chiều rộng) */
+
+.right-section {
+    flex: 6;
+    /* 6 phần trên tổng cộng 9 */
+}
+
+
+/* Trang trí hình ảnh avatar */
+
+.avatar img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Trang trí tiêu đề h2 trong thông tin bài viết */
+
+.noibat1_info h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/* Trang trí đoạn văn bản .sapo */
+
+.sapo {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* Trang trí thẻ a trong phần tử có lớp "some" */
+
+.some a {
+    text-decoration: none;
+    /* Loại bỏ gạch chân mặc định */
+    color: black;
+    /* Đặt màu chữ mặc định (ví dụ: màu xanh dương) */
+}
+
+
+/* Trang trí thẻ a khi di chuột qua */
+
+
+
+.top-tk {
+    flex: 2;
+    /* 2 phần trên tổng cộng 9 */
+    max-height: 500px;
+    /* Giới hạn chiều cao, điều chỉnh theo nhu cầu của bạn */
+    overflow: auto;
+    /* Tạo thanh cuộn khi nội dung vượt quá giới hạn */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    width: 80%;
+    /* Điều chỉnh chiều rộng theo nhu cầu */
+}
+
+.top-tk ul li {
+    margin-bottom: 10px;
+    /* Khoảng cách 10px giữa các dòng */
+    border: 1px solid #ccc;
+    /* Viền kèm theo, màu sắc và độ dày có thể được điều chỉnh */
+    padding: 10px;
+    /* Khoảng cách giữa nội dung và viền */
+}
+
+
+/*Thiết kế khung chứa danh sách bài viết: */
+
+#mostviewlefts {
+    width: 100%;
+    padding: 5px 390px 10px;
+    display: flex;
+}
+
+.mostviewleft,
+.mostviewright {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    border: 1px solid #cccaca;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.mostviewleft ul,
+.mostviewright ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mostviewleft img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 150px;
+}
+
+.mostviewright img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.mostviewleft h4,
+.mostviewright h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.mostviewleft .title_box a,
+.mostviewright .title_box a {
+    display: flex;
+    align-items: center;
+    color: #4b4949;
+    text-decoration: none;
+}
+
+.mostviewleft a,
+.mostviewright a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.mostviewleft a:hover,
+.mostviewright a:hover {
+    text-decoration: underline;
+}
+
+
+/* Style*/
+
+.vd-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nav-button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #ff2a00;
+}
+
+
+/* Loại bỏ dấu chấm trước mục danh sách */
+
+.info-a ul {
+    list-style: none;
+    padding: 5px;
+    margin: 30px;
+    float: right;
+}
+
+
+/* Định dạng mục danh sách - phần 1 */
+
+.pepsi{
+    width: 100%;
+    height: 274px;
+    display: grid;
+    grid-template-rows: 2fr 2fr 7fr;
+    margin-top: 300px;
+   }
+   .coca{
+    display: grid;
+    grid-template-columns: 1fr 3fr 4fr 4fr 3fr;
+ 
+   }
+   .vita{
+    display: grid;
+    grid-template-columns: 6fr 4fr 2fr 2fr;
+    background-color: #f9f9f9;
+   }
+   .vita1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+   }
+   .vita2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+   }
+   .vita3{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+   }
+   .vita4{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+   }
+.itemimg {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid #ebe7e7;
+
+}
+
+.itemimg div {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.itemimg .content {
+    flex-grow: 1;
+}
+
+.avatar {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.avatar img {
+    max-width: 80%;
+    height: auto;
+    padding: 10px;
+}

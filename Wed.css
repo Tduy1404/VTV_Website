@@ -1,0 +1,1186 @@
+/* ---header-top--- */
+.header{
+    height: 46px;
+    width: 100%;
+    background-color: #d60a0b;
+    min-width: 490px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial;
+    font-size: 6px;
+    color: #333;
+    font-weight: normal;
+}
+.png:hover{
+    
+}
+.png{
+    display: flex;
+    top: 0;
+    background: url(https://vtv1.mediacdn.vn/web_images/logo_2020_2.png) 0 0 no-repeat;
+    background-size: auto 85px;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 190px;
+    height: 85px;
+    float: left;
+    position: absolute;
+    left: -5px;
+    z-index: 100;
+}
+.grip{
+    width:  1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header__navbar-list1{
+    list-style: none;
+    padding-left: 0;
+    font-size:15px;
+}
+.header__navbar-item1{
+    margin: 0 10px;
+    display:  inline-block;
+    margin: 7px 10px 0px 0px;
+    padding: 3px 3px 3px 2px;
+    font: 12px arial;}
+
+.header__navbar{
+    display: flex;
+    justify-content:space-between ;
+}
+.header__navbar-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial;
+    font-size: 6px;
+    color: #333;
+    font-weight: normal;
+    float: right;
+    height: 22px;
+}
+    
+
+.header__navbar-item{
+    margin: 0 10px;
+}
+.header__navbar-item, .header__navbar-color{
+background-color: #d60a0b;
+}
+.header__navbar-item,.header__navbar-bot1{
+    display:  inline-block;
+    margin: 7px 10px 0px 0px;
+    padding: 3px 3px 3px 2px;
+    font: 12px arial;
+    color:#fffff0;
+
+}
+.header__navbar-item,.header__navbar-bot2{
+    display:  inline-block;
+    margin: 7px 10px 0px 0px;
+    padding: 3px 3px 3px 2px;
+    font: 12px arial;
+    color:#fffff0;
+}
+.header__navbar-item,.header__navbar-bot3{
+    display:  inline-block;
+    margin: 0px 10px 0px 0px;
+    font: 12px arial;
+    padding: 10px 3px 3px 2px;
+    color: #fffff0;
+}
+.header__navbar-item,.header__navbar-bot4{
+    font-size: 20px;
+    color: #ffb6b6;
+    margin: 0px 10px 0px 0px;
+}
+.header__navbar-item,.header__navbar-bot5{
+   
+    float: left;
+    font-size: 20px;
+}
+
+
+/* ---header-bottom--- */
+.header1{
+    height:46px;
+    width: 100%;
+    background-color: #b70002;
+    min-width: 490px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    font-family: Arial;
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+}
+.grip1{
+    width:  1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header1__navbar{
+    display: flex;
+    justify-content:space-between ;
+}
+    .header1__navbar-list1{
+        float: left;
+        width: 100%;
+    }
+    .header1__navbar-home{
+        margin: 0 8px;
+    }
+    .header1__navbar-home,.header1__navbar-top{
+        display:  inline-block;
+        font-size: 1.5rem;
+        color: var(--while-color);
+        text-decoration: none;
+        font-weight: 150px;
+    }
+    .header1__navbar-top{
+        margin: 7px 10px 0px 0px;
+        padding: 3px 3px 3px 2px;
+        font: 12px arial;
+    }
+    .header1__navbar-home,.header1__navbar-top1{
+        display:  inline-block;
+        
+        font-size: 15px;
+    }
+    .header1__navbar-home,.header1__navbar-top2{
+        display:  inline-block;
+    
+        font-size: 15px;
+        
+    }
+    /* ---body--- */
+
+.chen-container{
+    text-align: center;
+}
+.chen__1{
+    display: inline;
+
+    padding-left: 0; /* Khoảng lề trái */
+    padding-right: 0; /* Khoảng lề phải */
+  }
+.grip2{
+    width:  1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header2__navbar{
+    display: flex;
+    justify-content:space-between ;
+}
+    .header2__navbar-list2{
+        float: left;
+        width: 100%;
+    }
+    .header2__navbar-icon{
+        margin: 0 8px;
+        
+    }
+    .header2__navbar-icon,.header2__navbar-icon1{
+        display:  inline-block;
+        font-size: 1.5rem;
+        color: var(--while-color);
+        text-decoration: none;
+        font-weight: 150px;
+    }
+    .header1__navbar-icon{
+        margin: 7px 10px 0px 0px;
+        padding: 3px 3px 3px 2px;
+        font: 12px arial;
+    }
+
+    .header2__navbar-icon2{
+        background-color:#fff; /* Màu nền của nút */
+        border: 2px solid #333; /* Loại bỏ viền */
+        color:#333; 
+        padding: 10px 20px; /* Kích thước của nút */
+        text-align: center; /* Căn giữa chữ trong nút */
+        text-decoration: none; /* Loại bỏ gạch chân khi hover */
+        display: inline-block; /* Hiển thị nút như là một khối chữ nhật */
+        font-size: 12px; /* Kích thước chữ */
+        margin: 4px 2px; /* Khoảng cách giữa nút và các phần tử xung quanh */
+        cursor: pointer; /* Biểu tượng chuột khi hover */
+        border-radius: 5px; /* Độ cong của góc nút */
+    }
+    .header2__navbar-icon1{
+        background-color: #fff;
+        border: 2px solid #3c3c3c;
+        color: #3c3c3c;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .stickymenuleft {
+       
+        width: 30px;
+        position: absolute;
+        top: 290px;
+        left: 200px;
+       position: fixed;
+      
+    }   
+    .stickymenuleft ul li {
+
+        width: 61px;
+        padding: 10px 0;
+        border-bottom: 1px solid #dcdcdc;
+        text-align: center;
+        list-style: none;
+        text-decoration: none;
+        outline: none;
+    }
+
+        .stickymenuleft ul li:last-child {
+            border-bottom: none;
+        }
+
+        .stickymenuleft ul li span {
+            font: normal 11px/15px Arial;
+            color: #333;
+        }
+
+        .stickymenuleft ul li:hover span {
+            color: #f00;
+        }
+
+        .stickymenuleft ul li.tinnong span {
+            color: #f00;
+        }
+
+        .stickymenuleft ul li i {
+            display: block;
+            margin-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .stickymenuleft ul li.tinnong i {
+            background-position: -40px -357px;
+            width: 12px;
+            height: 13px;
+            
+        }
+
+        .stickymenuleft ul li.media i {
+            background-position: -40px -357px;
+            width: 12px;
+            height: 5px;
+        }
+
+        .stickymenuleft ul li.magazine i {
+            background-position: -17px -357px;
+            width: 12px;
+            height: 5px;
+        }
+
+        .stickymenuleft ul li.infographic i {
+            background-position: -0 -403px;
+            width: 12px;
+            height: 5px;
+        }
+
+        .stickymenuleft ul li.gocanh i {
+            background-position: 0 -383px;
+            width: 12px;
+            height: 5px;
+        }
+        .stickymenuleft ul li.sukien i {
+            background-position: -37px -402px;
+            width: 12px;
+            height: 5px;
+        }
+        .stickymenuleft ul li.infographic {
+            text-indent: -10px; 
+}
+/* ----- */
+.neubac1{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    left: 320px;
+}
+.a{
+    display: inline-block;
+    font-size: 17px ;
+    color: #333;
+    letter-spacing: 0;
+}
+.neubac2{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 510px;
+    left: 320px;
+   
+}
+
+.banana1{
+    display: inline-block;
+    font-size: 17px ;
+    color: #333;
+    letter-spacing: 0;
+
+}
+.avatar{
+    width: 300px;
+    
+    
+
+}
+    .avatar1{
+        width: 200px;
+        height: 306px;
+        position: absolute;
+        top: 300px;
+        left: 480px;
+        text-align: center;
+        letter-spacing: 0;
+
+    }
+   .b{
+    width: 490px;
+    height: 37px;
+    overflow: hidden;
+    font-weight: bold;
+   }
+   .c{
+    width: 490px;
+    height: 55px;
+    overflow: hidden;
+    font-size:12px ;
+    color:#7e7d7e;
+   }
+   .a1{
+    border-bottom: 2px solid #000;
+   }
+   .point{overflow: scroll;
+    list-style-type: none;
+   margin-top: 100px;
+   margin-left: 1005px;
+   width: 221px;
+   height: 402px;
+   border-left: 1px solid #333;
+    padding-left: -30px;
+}
+li{
+    list-style-type: none;
+}
+   .point::-webkit-scrollbar {
+    width: 4px;
+    height: 0px;
+} 
+.point::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+    background-color: #716666;
+}
+.point::-webkit-scrollbar-thumb {
+    background-color: rgb(224, 24, 24);
+}
+   .menu{
+    text-align: center;
+   }
+   .ngang1{
+    display: inline-block;
+    width: 120px;
+    height: 75px;
+    position: absolute;
+    top: 750px;
+    left: 350px;
+  
+   }
+   .ngang2{
+    display: inline-block;
+    width: 120px;
+    height: 75px;
+    position: absolute;
+    top: 750px;
+    left: 650px;
+   
+   }
+   .ngang3{
+    display: inline-block;
+    width: 120px;
+    height: 75px;
+    position: absolute;
+    top: 750px;
+    left:950px;
+   }
+   .h1{
+    width: 230px; /* Hoặc bất kỳ kích thước nào bạn muốn */
+    height: 100px;
+    overflow: hidden;
+   }
+   .h2{
+    width: 230px; /* Hoặc bất kỳ kích thước nào bạn muốn */
+    height: 100px;
+    overflow: hidden;
+   }
+   
+   .h3{
+    width: 230px; /* Hoặc bất kỳ kích thước nào bạn muốn */
+    height: 100px;
+    overflow: hidden;
+   }
+   /*  */
+   .img1{
+    display: inline-block;
+    width: 150px;
+    height: 95px;
+    position: absolute;
+    top: 320px;
+    left:1250px;
+   } 
+   .img2{
+    display: inline-block;
+    width: 150px;
+    height: 95px;
+    position: absolute;
+    top: 530px;
+    left:1250px;
+   }
+   .img3{
+    display: inline-block;
+    width: 150px;
+    height: 95px;
+    position: absolute;
+    top: 760px;
+    left:1250px;
+   }
+   /*  */
+  .M1{
+    display: inline-block;
+   margin-bottom: 10px;
+    width: 1250px;
+  }
+  .chery1{
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+    height: 95px;
+    position: absolute;
+    top: 1100px;
+    left:350px;
+  
+  }
+  .chery2{
+    display: inline-block; /* Để chữ và ảnh nằm cùng một hàng */
+    vertical-align: middle;
+    width: 650px;
+    height: 95px;
+    position: absolute;
+    top: 1070px;
+    left:620px;
+   font-size:25px;
+  
+  }
+  a{
+    color: #000;
+    text-decoration: none;
+  }
+  .time{
+    display: inline-block; /* Để chữ và ảnh nằm cùng một hàng */
+    vertical-align: middle;
+    width: 650px;
+    height: 95px;
+    position: absolute;
+    top: 1130px;
+    left:620px;
+   font-size:16px;
+   overflow: hidden;
+   color: #9b999b;
+  }
+  .sapo{
+    display: inline-block; /* Để chữ và ảnh nằm cùng một hàng */
+    vertical-align: middle;
+    width:650px;
+    height: 95px;
+    position: absolute;
+    top: 1190px;
+    left:620px;
+   font-size:16px;
+   overflow: hidden;
+   color: #9b999b;
+  }
+  .M2{
+    
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 1250px;
+  }
+  .chery3{
+    display: inline-block;
+    vertical-align: middle;
+    width: 256px;
+    height: 159px;
+    position: absolute;
+    top: 1300px;
+    left:350px;
+  }
+  .chery4{
+    display: inline-block; /* Để chữ và ảnh nằm cùng một hàng */
+    vertical-align: middle;
+    width: 650px;
+    height: 95px;
+    position: absolute;
+    top: 1270px;
+    left:620px;
+   font-size:25px;
+  }
+  .time1{
+    display: inline-block; /* Để chữ và ảnh nằm cùng một hàng */
+    vertical-align: middle;
+    width: 650px;
+    height: 95px;
+    position: absolute;
+    top: 1355px;
+    left:620px;
+   font-size:16px;
+   overflow: hidden;
+   color: #9b999b;
+  }
+  .sapo1{
+    display: inline-block; /* Để chữ và ảnh nằm cùng một hàng */
+    vertical-align: middle;
+    width:650px;
+    height: 95px;
+    position: absolute;
+    top: 1400px;
+    left:620px;
+   font-size:16px;
+   overflow: hidden;
+   color: #9b999b;
+  }
+  .M3{
+    
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 1250px;
+  }
+  .chery5{
+    display: inline-block;
+    vertical-align: middle;
+    width: 256px;
+    height: 159px;
+    position: absolute;
+    top: 1500px;
+    left:350px;
+  }
+  .chery6{
+    display: inline-block; /* Để chữ và ảnh nằm cùng một hàng */
+    vertical-align: middle;
+    width: 650px;
+    height: 95px;
+    position: absolute;
+    top: 1470px;
+    left:620px;
+   font-size:25px;
+   color: #333;
+  }
+  .time2{
+    display: inline-block; /* Để chữ và ảnh nằm cùng một hàng */
+    vertical-align: middle;
+    width: 650px;
+    height: 95px;
+    position: absolute;
+    top: 1555px;
+    left:620px;
+   font-size:16px;
+   overflow: hidden;
+   color: #9b999b;
+  }
+  .sapo2{
+    display: inline-block; /* Để chữ và ảnh nằm cùng một hàng */
+    vertical-align: middle;
+    width:650px;
+    height: 95px;
+    position: absolute;
+    top: 1600px;
+    left:620px;
+   font-size:16px;
+   overflow: hidden;
+   color: #9b999b;
+  }
+  .M4{
+    
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 1250px;
+  }
+  .chery7{
+    display: inline-block;
+    vertical-align: middle;
+    width: 256px;
+    height: 159px;
+    position: absolute;
+    top: 1700px;
+    left:350px;
+   
+  }
+  .chery8{
+    display: inline-block; /* Để chữ và ảnh nằm cùng một hàng */
+    vertical-align: middle;
+    width: 650px;
+    height: 95px;
+    position: absolute;
+    top: 1670px;
+    left:620px;
+   font-size:25px;
+  }
+  .time3{
+    display: inline-block; /* Để chữ và ảnh nằm cùng một hàng */
+    vertical-align: middle;
+    width: 650px;
+    height: 95px;
+    position: absolute;
+    top: 1755px;
+    left:620px;
+   font-size:16px;
+   overflow: hidden;
+   color: #9b999b;
+  }
+  .sapo3{
+    display: inline-block; /* Để chữ và ảnh nằm cùng một hàng */
+    vertical-align: middle;
+    width:650px;
+    height: 95px;
+    position: absolute;
+    top: 1800px;
+    left:620px;
+   font-size:16px;
+   overflow: hidden;
+   color: #9b999b;}
+   .temp{
+    top:1900px;
+    left: 350px;
+    
+    
+   }
+   .fix{
+    display: inline-block;
+    vertical-align: middle;
+    width: 350px;
+    height: 281px;
+    position: absolute;
+    top: 1900px;
+    left:350px;
+    background-color: #ffb6b6;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    padding-left: 5px;
+
+  }
+   .fix1{
+    display: inline-block;
+    vertical-align: middle;
+    width: 350px;
+    height: 259px;
+    position: absolute;
+    top: -25px;
+    left:350px;
+    background-color: #ffb6b6;
+   }
+
+   
+   .one{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 2210px;
+    left:350px;
+   }
+   .on{
+    width: 100px; /* Đặt chiều rộng của nút */
+    height: 30px; /* Đặt chiều cao của nút */
+    border-radius: 15px; /* Đặt bán kính để tạo hình bầu dục */
+    background-color: #fff; /* Màu nền của nút */
+    color:#9b999b; /* Màu chữ của nút */
+    border:2px solid #333; /* Xóa viền của nút */
+    outline:none;/* Xóa đường viền khi được nhấn */
+    cursor: pointer; 
+    text-align: center;
+   }
+   .one1{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 2210px;
+    left:640px;
+   }
+   .on1{
+    width: 100px; /* Đặt chiều rộng của nút */
+    height: 30px; /* Đặt chiều cao của nút */
+    border-radius: 13px; /* Đặt bán kính để tạo hình bầu dục */
+    background-color: #fff; /* Màu nền của nút */
+    color:#9b999b; /* Màu chữ của nút */
+    border:2px solid #333; /* Xóa viền của nút */
+    outline:none;/* Xóa đường viền khi được nhấn */
+    cursor: pointer; 
+    text-align: center;
+   }
+   .one2{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 2210px;
+    left:940px;
+   }
+   .on2{
+    width: 100px; /* Đặt chiều rộng của nút */
+    height: 30px; /* Đặt chiều cao của nút */
+    border-radius: 13px; /* Đặt bán kính để tạo hình bầu dục */
+    background-color: #fff; /* Màu nền của nút */
+    color:#9b999b; /* Màu chữ của nút */
+    border:2px solid #333; /* Xóa viền của nút */
+    outline:none;/* Xóa đường viền khi được nhấn */
+    cursor: pointer; 
+    text-align: center;
+   }
+   .red{
+    display:inline-block ;
+    vertical-align: middle;
+    position: absolute;
+    margin-top: 760px;
+    margin-left: 300px;
+    list-style-type: none;
+
+    
+   }
+   .red1{
+    margin-left: 270px;
+    margin-top: -140px;
+    font-size:20px;
+    vertical-align: middle;
+    overflow: hidden;
+    
+   }
+   .time4{
+    margin-left: 270px;
+    margin-top: auto;
+    font-size:16px;
+    color: #9b999b;
+   }
+   .sapo4{
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: auto;
+    overflow: hidden;
+   color: #9b999b;
+   font-size: 15px;
+   }
+   .tlitem{
+    display:inline-block ;
+    vertical-align: middle;
+    margin-top: 940px;
+    margin-left: 300px;
+    overflow: hidden;
+    list-style-type: none;
+   }
+   .tlitem1{
+    margin-left: 260px;
+    margin-top: -150px;
+    font-size:20px;
+    vertical-align: middle;
+    overflow: hidden;
+    
+   }
+   .time5{
+    margin-left: 260px;
+    margin-top: auto;
+    font-size:16px;
+    color: #9b999b;
+   }
+   .sapo5{
+    margin-left: 260px;
+    margin-top: auto;
+   color: #9b999b;
+   }
+   .tiny{
+    margin-left: 300px;
+    list-style-type: none;
+   }
+   .tiny1{
+    margin-left: 260px;
+    margin-top: -150px;
+    
+   }
+   .time6{
+    margin-left: 260px;
+    margin-top: auto;
+   }
+   .sapo6{
+    margin-left: 260px;
+    margin-top: auto;
+   }
+   
+   .mini{
+    padding-top: 25px;
+    margin-left: 300px;
+    list-style-type: none;
+   }
+   .mini1{
+    margin-left: 260px;
+    margin-top: -150px;
+    
+   }
+   .time7{
+    margin-left: 260px;
+    margin-top: auto;
+   }
+   .sapo7{
+    margin-left: 260px;
+    margin-top: auto;
+    
+   }
+   .book{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 604px;
+    width: 848px;
+    margin-top: 50px;
+    margin-left: 340px;
+   }
+.book1{
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+    background-color: #f9f9f9;
+}
+.f2{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    
+}
+.t1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+   
+.t2{
+    display: grid;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr;
+}
+.book2{
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr;
+    background-color:#fff;
+}
+/*  */
+.coco{
+    margin-left: 300px;
+    list-style-type: none;
+   }
+   .coco1{
+    margin-left: 260px;
+    margin-top: -150px;
+    
+   }
+   .time8{
+    margin-left: 260px;
+    margin-top: auto;
+   }
+   .sapo8{
+    margin-left: 260px;
+    margin-top: auto;
+   }
+   .mono{
+    margin-left: 300px;
+    list-style-type: none;
+    margin-top: 50px;
+
+   }
+   .mono1{
+    margin-left: 260px;
+    margin-top: -150px;
+    
+   }
+   .time9{
+    margin-left: 260px;
+    margin-top: auto;
+   }
+   .sapo9{
+    margin-left: 260px;
+    margin-top: auto;
+   }
+   .suka{
+    margin-left: 300px;
+    list-style-type: none;
+    margin-top: 30px;
+   }
+   .suka1{
+    margin-left: 260px;
+    margin-top: -150px;
+    
+   }
+   .time10{
+    margin-left: 260px;
+    margin-top: auto;
+   }
+   .sapo10{
+    margin-left: 260px;
+    margin-top: auto;
+   }
+   /*  */
+   .tea{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 617px;
+    width: 1175px;
+    margin-left: 330px;
+    margin-top: 50px;
+   }
+   .tea1{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 1fr 1fr 1fr;
+   
+   }
+   .tea2{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 1fr 1fr 1fr;
+   
+   }.tea3{
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr 1fr 2fr;
+    
+   }
+   /*  */
+   .pepsi{
+    width: 1170px;
+    height: 274px;
+    display: grid;
+    grid-template-rows: 2fr 2fr 7fr;
+    margin-top: 300px;
+    margin-left: 330px;
+   }
+   .coca{
+    display: grid;
+    grid-template-columns: 1fr 3fr 4fr 4fr 3fr;
+ 
+   }
+   .vita{
+    display: grid;
+    grid-template-columns: 6fr 4fr 2fr 2fr;
+    background-color: #f9f9f9;
+   }
+   .vita1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+   }
+   .vita2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+   }
+   .vita3{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+   }
+   .vita4{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+   }
+   /*  */
+   .mika{
+    margin-top: 300px;
+    margin-left: 330px;
+   }
+   .page1{
+    position: absolute;
+    margin-left: 19rem;
+    margin-right: 19rem;
+    margin-top: 1rem;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+.nav-item{
+    display: flex;
+}
+.nav img{
+    width: 6.5rem;
+    height: auto;
+}
+.nav-child{
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left:0;
+    width: 100%;
+    /* background-color: ; */
+    opacity: 0;
+    visibility: hidden;
+    padding-bottom: 2rem;
+}
+
+.nav-child-list img{
+    margin-top: 2rem;
+    width: 7rem;
+    background-color: transparent;
+    height: auto;
+}
+.nav-child-item{
+    background-color: transparent;
+
+}
+li{
+    list-style-type: none;
+}
+
+.tivi{
+    margin-top: 1.5rem;
+    position: relative;
+    background-color: azure;
+    width: 70rem;
+    height: 25rem;
+}
+#phim{
+    position: absolute;
+    margin: 1rem;
+    width: 40rem;
+    height: 28rem;
+}
+.lich{
+    position: absolute;
+    margin-left: 45rem;
+    margin-top: 1rem;
+    width: 25rem;
+    height: 20rem;
+    background-color: red;
+    /*  */
+}
+.tieude{
+    background-color: red;
+    position: absolute;
+    color: aliceblue;  
+    font-size: 120%;
+    font-family:sans-serif
+}
+.lichphatsong{
+    margin-top: 1rem;
+    margin-left:  2rem;
+    margin-bottom: 0.7rem;
+    background-color: rgb(224, 24, 24);
+}
+#mongoac{
+    background-color: rgb(224, 24, 24);
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+#dongngoac{
+    background-color: rgb(224, 24, 24);
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+#date{
+    background-color: rgb(224, 24, 24);
+    
+    margin-left: 4rem;
+}
+.lich.tieude{
+    background-color: rgb(224, 24, 24);
+}
+#icon_lich{
+    background-color: rgb(224, 24, 24);
+}
+#text_lich{
+    background-color: rgb(224, 24, 24);
+}
+.ngaythang{
+    background-color: rgb(224, 24, 24);
+    border-top: 1px solid green;
+}
+
+.danhsach{
+    background-color: azure;
+    margin-top: 1rem;
+    overflow: scroll;
+    width: 22.5rem;
+    height: 17rem;
+    border-bottom: 1px solid rgb(204, 204, 218);
+}
+.danhsach::-webkit-scrollbar {
+    width: 6px;
+    height: 0px;
+} 
+.danhsach::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #716666;
+}
+.danhsach::-webkit-scrollbar-thumb {
+    background-color: rgb(224, 24, 24);
+}
+.list{
+    margin-top: 1.5rem;
+    border-bottom: 1px solid rgb(204, 204, 218);
+    background-color: azure;
+}
+.list a{
+    background-color:transparent;
+    text-decoration: none;
+}
+.hour{
+    font-size: 130%;
+}
+.filmname{
+    font-size: 110%;
+    padding-left: 7rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.iconContact{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    gap:3rem;
+    background-color: transparent;
+}
+.iconContact i{
+    background-color: azure;
+}
+.iconContact a{
+    text-decoration: none;
+}
+.contact{
+    font-size: 1rem;   
+    background-color: transparent;
+}
+#lightning{
+    color: green;
+}
+#heart{
+    color:red;
+}
+#facebook{
+    color:blue;
+}
+#undo{
+    color:red;
+}
